@@ -1,0 +1,153 @@
+{
+  "info": {
+    "_postman_id": "b652ad00-5347-4ad0-a048-aacc06b74901",
+    "name": "Calculator",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "id": "b3c9edc7-9ffb-4535-875e-0ac7b03e281f",
+      "name": "Add",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"a\": 9.8,\n  \"b\": 1.2\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3008/add",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "add"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "80de0069-7c2f-4b41-9023-5200eb19d254",
+      "name": "Check Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3008/health",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "health"
+          ],
+          "protocol": "http",
+          "query": [
+            {
+              "key": "",
+              "value": "",
+              "disabled": true,
+              "description": ""
+            }
+          ]
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "04419c23-60a9-41c6-a0a6-5c924b11fc51",
+      "name": "Div",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"a\":9.8,\n  \"b\" :1.2\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3008/div",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "div"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "3c284f82-ef43-4c9e-a93a-78bfbb2bb075",
+      "name": "Mul",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"a\": 9.8,\n  \"b\": 1.2\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3008/mul",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "mul"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "4246eb28-6cc2-4dd6-b042-21fb3e5c62d7",
+      "name": "Sub",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"a\": 9.8,\n  \"b\": 1.2\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3008/sub",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "sub"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    }
+  ]
+}
